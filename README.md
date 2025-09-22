@@ -76,6 +76,9 @@ A live observability dashboard powered by Splunk Enterprise. This solution integ
     index=sysmon_index | head 10
     ```
   - Ensure EventCode and key fields (e.g., `Image`, `CommandLine`, `DestinationIp`) are extracted.
+ 
+  - Example You can extract data in the form of tables like this <img width="1920" height="950" alt="Screenshot (2036)" src="https://github.com/user-attachments/assets/6e0e89f0-b6da-4005-ad3e-92998f878c30" />
+
 
 ---
 
@@ -136,12 +139,20 @@ index=sysmon_index EventCode=1 Image="*powershell.exe"
 ---
 
 *You can create additional dashboard panels to suit specific monitoring needs.*
+<img width="1920" height="1080" alt="Screenshot (2046)" src="https://github.com/user-attachments/assets/88114ac1-ea49-4223-881f-cfe293155624" />
+
+<img width="1920" height="1080" alt="Screenshot (2041)" src="https://github.com/user-attachments/assets/c9e57a4d-dc0b-4a9d-95a8-5b4c61681637" />
+
+
 
 ---
 
 ## Final Notes
 
 Once your dashboard is live, continue to **optimize panels, queries, and alerts** to meet evolving security and monitoring requirements.
+
+<img width="1065" height="1018" alt="Screenshot (2047)" src="https://github.com/user-attachments/assets/6167ce7f-15fc-4c2e-94d0-c6d4fe541e4c" />
+
 
 ---
 
