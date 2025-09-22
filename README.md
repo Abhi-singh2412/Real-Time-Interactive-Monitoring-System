@@ -77,7 +77,9 @@ A live observability dashboard powered by Splunk Enterprise. This solution integ
     ```
   - Ensure EventCode and key fields (e.g., `Image`, `CommandLine`, `DestinationIp`) are extracted.
  
-  - Example You can extract data in the form of tables like this <img width="1920" height="950" alt="Screenshot (2036)" src="https://github.com/user-attachments/assets/6e0e89f0-b6da-4005-ad3e-92998f878c30" />
+  - Example You can extract data in the form of tables like this (Note: Remember to handle Null values when dealing with lat lon because it can cause problems ahead ) <img width="1920" height="950" alt="Screenshot (2036)" src="https://github.com/user-attachments/assets/6e0e89f0-b6da-4005-ad3e-92998f878c30" />
+<img width="1920" height="949" alt="Screenshot (2031)" src="https://github.com/user-attachments/assets/9d9fd7cc-f091-40fd-af2b-bd46a29cc67c" />
+
 
 
 ---
